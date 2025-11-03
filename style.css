@@ -1,0 +1,71 @@
+body {
+  font-family: 'Trebuchet MS', sans-serif;
+  text-align: center;
+  color: white;
+  margin: 0;
+  padding: 0;
+  transition: background-color 0.6s ease;
+}
+
+h1 {
+  margin-top: 20px;
+  font-size: 2.5em;
+  text-shadow: 2px 2px 8px rgba(0, 0, 0, 0.7);
+}
+
+.contenedor-personaje {
+  margin-top: 30px;
+}
+
+.contenedor-personaje img {
+  width: 400px;
+  max-width: 80%;
+  border-radius: 15px;
+  box-shadow: 0 0 20px rgba(0, 0, 0, 0.5);
+  transition: transform 0.3s;
+}
+
+.contenedor-personaje img:hover {
+  transform: scale(1.02);
+}
+
+.contenedor-botones {
+  margin-top: 40px;
+  display: flex;
+  justify-content: center;
+  gap: 25px;
+  flex-wrap: wrap;
+}
+
+.boton {
+  width: 90px;
+  height: 90px;
+  border-radius: 50%;
+  cursor: pointer;
+  border: 3px solid white;
+  transition: transform 0.3s, border-color 0.3s, box-shadow 0.3s;
+}
+
+.boton:hover {
+  transform: scale(1.2);
+  border-color: #ff0000;
+  box-shadow: 0 0 15px #ff0000;
+}
+
+.volver {
+  margin-top: 40px;
+}
+
+.volver a {
+  background-color: #cb4040;
+  color: white;
+  text-decoration: none;
+  padding: 10px 20px;
+  border-radius: 8px;
+  font-weight: bold;
+  transition: background-color 0.3s;
+}
+
+.volver a:hover {
+  background-color: #003976;
+}
